@@ -1530,22 +1530,14 @@ int main(void)
                       / 2;
 
 
-
-if (n <= 0.0) {
-
-        if (n == 0.0)
-
-            printf("%d is zero\n");
-
-        else
-
-            printf("%d is negative\n");
-
-    }
-
-    else
-
-        printf("%d is positive\n");
- return (0);
-
+if(n > 0) {
+ printf ("%d is positive\n", n)
+ }
+else if(n == 0) {
+       printf("%d is zero\n", n)
+}
+ else {
+  printf("%d is negative\n", n)
+ }
+ return (0)
 }
