@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * This is my code
- * am going to try out
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void) 
 {
