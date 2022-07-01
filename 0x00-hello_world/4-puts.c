@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*This is my code
+/**
+ * This is my code
  * am going to try out
  */
 int main(void) 
