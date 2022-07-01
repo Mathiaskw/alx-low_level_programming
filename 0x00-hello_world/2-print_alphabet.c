@@ -10,7 +10,7 @@ int main(void)
 { char c;
 char interger_C;
 	c = 'a';
-	intergar_C = putchar(c);
+	interger_C = putchar(c);
 	while(c <= 'z');
 {
 	c++;
