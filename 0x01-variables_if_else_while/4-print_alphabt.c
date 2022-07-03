@@ -5,7 +5,7 @@
  *Return: 0
  */
 int	main(void)
-{	char	ch;
+{	int	ch	=	'a';
 if	(ch != 'q' && ch != 'e')
 {	putchar(ch);
 }
