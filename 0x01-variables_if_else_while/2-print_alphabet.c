@@ -1,12 +1,11 @@
 #include	<stdio.h>
 /**
-*main	-	Entry Point 
-*
-*Return: Always 0 (Success)
-*/
-
+ *main	-	main	function
+ *Description: printing alphabets in lowercase
+ *Return: Return 0
+ */
 int	main(void)
-{	int	ch;
+{	int ch;
 for	(ch = 'a'; ch <= 'z'; ch++)
 {	putchar(ch);
 }
