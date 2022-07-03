@@ -5,7 +5,7 @@
  */
 int	main(void)
 {	int	kx;
-for	(kx = 'z'; kx >= 'a'; kx++)
+for	(kx = 'z'; kx >= 'a'; kx--)
 {	putchar(kx);
 }
 {	putchar('\n');
