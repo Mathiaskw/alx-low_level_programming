@@ -11,8 +11,7 @@ if	(r <= '9')
 	putchar(r);
 	putchar(',');
 	putchar(' ');
-}
-if 
+} 
 {	putchar('\n');
 }
 	return	(0);
