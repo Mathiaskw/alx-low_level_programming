@@ -10,7 +10,9 @@ if	(i <= '8')
 {	putchar(i);
 	putchar(',');
 	putchar(' ');
-	putchar(i == 9);
+}
+if	(i == '9')
+{	putchar(i);
 }
 {	putchar('\n');
 }
