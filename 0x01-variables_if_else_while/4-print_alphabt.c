@@ -5,7 +5,8 @@
  *Return: 0
  */
 int	main(void)
-{	int	ch	=	'a';
+{	int	ch;
+for	(ch = 'a'; ch <= 'z'; ch++)
 if	(ch != 'q' && ch != 'e')
 {	putchar(ch);
 }
