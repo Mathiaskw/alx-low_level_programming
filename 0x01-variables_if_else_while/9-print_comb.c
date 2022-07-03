@@ -12,7 +12,7 @@ if	(i <= '8')
 	putchar(' ');
 {
 if	(i = '9')
-{	putchar(i);
+{	putchar('9');
 }
 {	putchar('\n');
 }
