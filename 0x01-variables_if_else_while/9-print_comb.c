@@ -13,5 +13,7 @@ if	(i < '9')
 }
 {	putchar(' ');
 }
-	return	(0);
+{	putchar('\n');
+}
+return	(0);
 }
