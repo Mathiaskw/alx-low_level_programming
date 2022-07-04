@@ -8,13 +8,12 @@ int	main(void)
 for	(i = '0'; i <= '9'; i++)
 if	(i <= '8')
 {	putchar(i);
-	putchar(',' | ' ');
+	putchar(',');
+	putchar(' ');
 }
 for     (i = '0'; i <= '9'; i++)
 if	(i == '9')
-{	putchar(i);
-}
-{	putchar('\n');
+{	putchar(i '\n');
 }
 	return	(0);
 }
