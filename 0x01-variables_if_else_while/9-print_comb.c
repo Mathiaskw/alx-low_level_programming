@@ -11,7 +11,8 @@ if	(i <= '8')
 	putchar(',');
 	putchar(' ');
 else
-	putchar(i);
+if	(i == '9')
+{	putchar(i);
 }
 {	putchar('\n');
 }
