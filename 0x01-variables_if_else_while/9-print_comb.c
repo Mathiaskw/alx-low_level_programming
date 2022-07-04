@@ -13,7 +13,7 @@ if	(i <= '8')
 }
 for     (i = '0'; i <= '9'; i++)
 if	(i == '9')
-{	putchar(i '\n');
+{	putchar(i);
 }
 	return	(0);
 }
