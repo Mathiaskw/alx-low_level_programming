@@ -10,9 +10,8 @@ if	(i <= '8')
 {	putchar(i);
 	putchar(',');
 	putchar(' ');
-}
 else
-{	putchar(i);
+	putchar(i);
 }
 {	putchar('\n');
 }
