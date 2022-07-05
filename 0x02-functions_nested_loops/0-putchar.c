@@ -1,14 +1,10 @@
 #include	<stdio.h>
+#include	"main.h"
 /**
  *main - main function
  *Return: Always 0 (Success)
  */
 int	main(void)
-{	int	n[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
-	int	putchar(int_n);
+{	2putchar("_putchar");
+	return	(0);
 }
-{	putchar('\n');
-}
-	return  (0);
-}
-
