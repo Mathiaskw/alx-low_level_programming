@@ -5,7 +5,7 @@
  *main - main function
  *Return: Always 0.
  */
-int	main(void)
+int	main()
 {	int _islower(int c);
 	return	(1);
 }
