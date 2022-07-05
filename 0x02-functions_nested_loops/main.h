@@ -5,6 +5,6 @@ void	p_utchar(char name[])
 {	printf("%s\n", name);
 }
 void	print_alphabet(char c)
-{	if	(c = 'a'; c <= 'z'; c++)
+{	for	(c = 'a'; c <= 'z'; c++)
 	printf("%c", c);
 }
