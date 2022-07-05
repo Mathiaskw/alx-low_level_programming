@@ -17,5 +17,5 @@ void	print_alphabet_x10()
 int _islower(int c)
 {	int c;
 	c = 'y';
-	printf("%c: %d", p, islower(c));
+	printf("%c: %d", c, islower(c));
 }
