@@ -5,8 +5,7 @@
  *Return: 0
  */
 int	main(void)
-{	print_alphabet('a');
-	print_alphabet('b');
+{	print_alphabet(c);
 	putchar('\n');
 	return	(0);
 }
