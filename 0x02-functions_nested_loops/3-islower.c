@@ -6,6 +6,6 @@
  *Return: Always 0.
  */
 int	main(void)
-{	int _islower(int p);
+{	int _islower(int c);
 	return	(1);
 }
