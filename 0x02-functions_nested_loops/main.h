@@ -12,14 +12,14 @@ void	print_alphabet()
 void	print_alphabet_x10()
 {	char k;
 	for     (k = 'a'; k <= 'z'; k++)
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
-	printf("%c", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
+	printf("%c\n", k);
 }
