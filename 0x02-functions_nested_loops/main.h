@@ -14,8 +14,8 @@ void	print_alphabet_x10()
 	for     (k = 'a'; k <= 'z'; k++)
 	printf("%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n", k, k, k, k, k, k, k, k, k, k);
 }
-int _islower(int p)
-{	char p;
-	p = 'y';
-	printf("%c: %d", p, islower(p));
+int _islower(int c)
+{	char c;
+	c = 'y';
+	printf("%c: %d", p, islower(c));
 }
