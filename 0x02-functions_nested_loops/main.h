@@ -15,7 +15,6 @@ void	print_alphabet_x10()
 	printf("%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n%c\n", k, k, k, k, k, k, k, k, k, k);
 }
 int _islower(int c)
-{	int c;
-	c = 'y';
+{	c = 'y';
 	printf("%c: %d", c, islower(c));
 }
