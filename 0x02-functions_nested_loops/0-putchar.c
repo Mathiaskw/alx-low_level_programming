@@ -5,7 +5,7 @@
  */
 int	main(void)
 {	int	n[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
-	putchar(n);
+	int	putchar(int_n);
 }
 {	putchar('\n');
 }
