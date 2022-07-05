@@ -9,3 +9,17 @@ void	print_alphabet()
 	for	(c = 'a'; c <= 'z'; c++)
 	printf("%c", c);
 }
+void	print_alphabet_x10()
+{	char k;
+	for     (k = 'a'; k <= 'z'; k++)
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+	printf("%c", k);
+}
