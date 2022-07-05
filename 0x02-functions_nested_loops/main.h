@@ -1,10 +1,10 @@
 /**
  *This is my own header file
  */
-void	2putchar(char name[])
+void	p_utchar(char name[])
 {	printf("%s\n", name);
-};
+}
 int	main(void)
-{	2putchar("Mary");
+{	p_utchar("Mary");
 	return	(0);
 }
