@@ -5,9 +5,12 @@
  *Return: 0
  */
 void	print_alphabet_x10(void)
-{	char f;
-for	(f = 'a'; f <= 'z'; f++)
-	_putchar(f);
+{	char	counter;
+	int	f;
+
+for	(f = 0; f < 10; f++)
+{	for (counter = 'a'; counter <= 'z'; counter++)
+{	_putchar(counter);
 }
-{	putchar('\n');
+	putchar('\n');
 }
