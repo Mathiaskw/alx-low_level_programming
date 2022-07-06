@@ -5,8 +5,11 @@
  *Return: 0
  */
 void	print_alphabet(void)
-{	char	k;
-for	(k = 'a'; k <= 'z'; k++)
+{	char counter;
+	int	k;
+
+for	(k = 0; k < 10; k++)
+{	for	(counter = 'a'; counter <= 'z'; counter++)
 {	_putchar(k);
 }
 	putchar('\n');
