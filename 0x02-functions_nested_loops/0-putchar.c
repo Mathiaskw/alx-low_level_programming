@@ -6,8 +6,8 @@
  *Return: 0
  */
 void	main_1(void)
-{	char	greetings[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
-};
+{	printf("_putchar\n");
+}
 int	main(void)
 {	main_1();
 	return	(0);
