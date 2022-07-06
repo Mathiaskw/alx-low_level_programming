@@ -11,5 +11,5 @@ for	(k = 'a'; k <= 'z'; k++)
 }
 	putchar('\n');
 }
-{	return	(0);
+	return	(0);
 }
