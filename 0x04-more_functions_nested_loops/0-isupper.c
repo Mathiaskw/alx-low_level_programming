@@ -5,9 +5,8 @@
  *@c:uppercase or lowercase letter
  *Return: 0
  */
-int	_isupper(int c);
-{	alpha = 'A';
-	char alpha;
+int	_isupper(int c)
+{	char alpha;
 
 for	(alpha = 'A'; alpha <= 'Z'; alpha++)
 {
