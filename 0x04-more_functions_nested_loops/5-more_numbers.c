@@ -1,9 +1,9 @@
 #include	"main.h"
 /**
- *print_most_numbers - print numbers 10 times
- *Return: 0
+ *more_numbers - print numbers 10 times
+ *Return: a serie of number 10 times
  */
-void	print_most_numbers(void)
+void	more_numbers(void)
 {	int i;
 	int r;
 
