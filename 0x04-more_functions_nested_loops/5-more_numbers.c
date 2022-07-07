@@ -17,5 +17,6 @@ if	(r >= 10)
 }
 	putchar(r % 10 + '0');
 }
-{	putchar('\n');
+	putchar('\n');
+}
 }
