@@ -28,4 +28,3 @@ if	(month == 2 && day == 60)
 	printf("Remaining days: %d\n", 365 - day);
 }
 }
-}
