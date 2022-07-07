@@ -12,10 +12,10 @@ for	(i = 0; i <= 9; i++)
 for	(r = 0; r <= 14; r++)
 {
 if	(r >= 10)
-{	putchar(r / 10 + '0');
+{	_putchar(r / 10 + '0');
 }
-	putchar(r % 10 + '0');
+	_putchar(r % 10 + '0');
 }
-	putchar('\n');
+	_putchar('\n');
 }
 }
