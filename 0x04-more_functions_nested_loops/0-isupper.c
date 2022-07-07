@@ -6,16 +6,14 @@
  *Return: 0
  */
 int	_isupper(int c);
-{	char c;
+{	char alpha;
 
-if
-{	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
+for	(alpha = 'A'; alpha <= 'Z'; alpha++)
+{
+if	(c == alpha)
 	return	(1);
 }
 else
-{	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
 	return	(0);
 }
 }
