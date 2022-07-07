@@ -6,7 +6,7 @@
  *Return: 0
  */
 int	_isupper(int c);
-{
+{	alpha = 'A';
 	char alpha;
 
 for	(alpha = 'A'; alpha <= 'Z'; alpha++)
