@@ -6,6 +6,14 @@
  *Return: 0
  */
 void	print_rev(char *s)
-{	s = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-}
+{	int i;
 
+while	(s[i] != 0)
+{	i++;
+}
+while	(i > 0)
+{	i--;
+	putchar(s[i]);
+}
+	_putchar('\n');
+}
