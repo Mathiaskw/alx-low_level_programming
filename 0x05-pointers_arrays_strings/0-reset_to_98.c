@@ -1,17 +1,16 @@
 #include	<stdio.h>
 #include	"main.h"
 /**
+ *main - deferencing pointers
  *reset_to_98 - check the code
- *@n: is a pointer
  *Return: Always 0.
  */
-void	reset_to_98(int *n)
-{	int	*p;
+int	main(void)
+{	int	n;
 
 	n = 402;
-	p = &n;
 	printf("n=%d\n", n);
-	*p = 98;
+	reset_to_98(&n);
 	printf("n=%d\n", n);
 	return (0);
 }
