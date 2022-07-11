@@ -6,13 +6,10 @@
  */
 void	reset_to_98(int *n)
 {	int	p;
-	int	*n;
 
-	p = 1;
-	*n = &p;
-	printf("Value of 'p': %d\n", p);
-	printf("Address of 'p': %p\n", &p);
-	*n = 98;
-	printf("%d\n", p);
+	n = 402;
+	printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
 	return (0);
 }
