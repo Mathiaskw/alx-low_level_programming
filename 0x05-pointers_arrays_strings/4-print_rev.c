@@ -17,6 +17,7 @@ while	(s[count] != '\0')
 for	(i = 0; i < count; i++)
 {	rev[i] = str[j];
 	i--;
+	putchar(rev[i]);
 }
 	putchar('\n');
 }
