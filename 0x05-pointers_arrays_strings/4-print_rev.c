@@ -6,14 +6,17 @@
  *Return: 0
  */
 void	print_rev(char *s)
-{	int i;
+{	char str[1000];
+	char rev[1000];
+	int i, j, count = 0;
 
-while	(s[i] != 0)
-{	i++;
+while	(s[count] != '\0')
+{	count++;
 }
-while	(i > 0)
-{	i--;
-	putchar(s[i]);
+	j = count - 1;
+for	(i = 0; i < count; i++)
+{	rev[i] = str[j];
+	i--;
 }
 	putchar('\n');
 }
