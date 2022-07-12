@@ -7,6 +7,7 @@
  */
 int	main(void)
 {	char a[10] = "My School";
+	char *s;
 	*s = &a;
 	rev_string(*s);
 }
