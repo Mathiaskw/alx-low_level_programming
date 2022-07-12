@@ -24,4 +24,3 @@ while	(str[i] != '\0')
 }
 	putchar('\n');
 }
-}
