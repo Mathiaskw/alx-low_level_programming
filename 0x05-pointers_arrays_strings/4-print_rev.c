@@ -6,7 +6,7 @@
  *Return: 0
  */
 void	print_rev(char *s)
-{	char str[1000];
+{	char str[1000] = "Holberton!";
 	char rev[1000];
 	int i, j, count = 0;
 
