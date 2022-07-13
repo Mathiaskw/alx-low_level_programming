@@ -9,11 +9,11 @@
 char	*_strcat(char *dest, char *src)
 {	char s1[] = "Hello ";
 	char s2[] = "World!\n";
-	char d;
+	char *ptr;
 
 	dest = &s1;
 	src = &s2;
-	d = *_strcat(dest, src);
+	ptr = _strcat(dest, src);
 }
 {	putchar(d);
 	putchar('\n');
