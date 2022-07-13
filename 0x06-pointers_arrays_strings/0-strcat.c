@@ -7,9 +7,9 @@
  *Return: concanated strings
  */
 char	*_strcat(char *dest, char *src)
-{	int *ptr;
+{	char *ptr[];
 
-	ptr = _strcat("Hello ", "World!\n");
-	putchar(ptr);
+	ptr[] = _strcat("Hello ", "World!\n");
+	putchar(*ptr[]);
 {	putchar('\n');
 }
