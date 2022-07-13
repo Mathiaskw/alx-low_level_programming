@@ -7,8 +7,9 @@
 int	main(void)
 {	int n;
 	int *p;
-	int a[2] = 1024;
-
+	int a;
+	
+	a[2] = 1024;
 	p = &n;
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
