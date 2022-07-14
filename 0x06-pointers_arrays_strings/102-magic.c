@@ -1,13 +1,8 @@
 #include	<stdio.h>
-#include	"main.h"
-/**
- *main - print 98
- *Return: 0
- */
 int	main(void)
 {	int n;
-	int *p;
 	int a[5];
+	int *p;
 
 	a[2] = 1024;
 	p = &n;
