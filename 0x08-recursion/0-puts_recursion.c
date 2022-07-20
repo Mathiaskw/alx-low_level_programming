@@ -9,9 +9,9 @@ void	_puts_recursion(char *s)
 {	int i;
 
 	i = 0;
-	s[i] = i + 1;
+	s[i] = i++;
 if	(s[i] == '\0')
-{	return;
+{	return (s);
 }
 {	putchar(s[i]);
 }
