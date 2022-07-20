@@ -5,7 +5,7 @@
  *@s: is the string
  * Return string
  */
-void	_puts_recursion(char *s);
+void	_puts_recursion(char *s)
 {	int i;
 
 	i = 0;
