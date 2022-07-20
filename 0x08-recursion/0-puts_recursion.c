@@ -6,14 +6,9 @@
  * Return string
  */
 void	_puts_recursion(char *s)
-{	int i;
-
-	i = 0;
-	s[i] = i++;
-if	(s[i] == '\0')
-{	return (s);
-}
-{	putchar(s[i]);
+{
+if	(*s == '\0')
+{	putchar(*s);
 }
 {	putchar('\n');
 }
