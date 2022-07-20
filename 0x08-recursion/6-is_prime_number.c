@@ -17,7 +17,6 @@ else	if	(j % i == 0 || j <= 1)
 else
 {	return (prime_found(i + 1, j));
 }
-}
 	return (0);
 }
 /**
