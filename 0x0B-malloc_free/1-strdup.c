@@ -7,8 +7,7 @@
  *Return: pointer to duplicated string or NULL if error
  */
 char	*_strdup(char *str)
-{	unsigned int i, j;
-	char *s;
+{	char *s;
 	int i = 0, j;
 if	(!str)
 {	return (NULL);
