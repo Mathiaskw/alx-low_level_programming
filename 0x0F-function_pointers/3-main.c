@@ -24,3 +24,4 @@ if	((argv[2][0] != '+' && argv[2][0] != '-' && argv[2][0] != '/' && argv[2][0] !
 	printf("%d\n", operation);
 	return (0);
 }
+}
