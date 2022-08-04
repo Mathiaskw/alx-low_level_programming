@@ -14,7 +14,7 @@ void	print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(arguments, n);
 for	(s = 0; s < n; s++)
-	clone = va_arg(arguments, char*);
+{	clone = va_arg(arguments, char*);
 if	(clone != NULL)
 	printf("%s", clone);
 else
