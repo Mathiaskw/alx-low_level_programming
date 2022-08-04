@@ -26,6 +26,7 @@ switch	(start)
 {	case 1: printf(", ");	}
 	start = 1;
 	printf("%i", va_arg(list, int));
+	break;
 	case 'f':
 	switch (start)
 {	case 1: printf(", ");	}
