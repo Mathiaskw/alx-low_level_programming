@@ -15,11 +15,11 @@ if	(str == NULL)
 	temp = malloc(sizeof(list_t));
 if	(temp == NULL)
 {	return (NULL);
+}
 	temp->str = strdup(str);
 if	(temp->str == NULL)
 {	free(temp);
 	return (NULL);
-}
 }
 while	(str[length])
 {	length++;
