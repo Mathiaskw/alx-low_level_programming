@@ -18,13 +18,13 @@ if	(diff > 0)
 {	temp = (*h)->next;
 	*h = temp;
 	len++;
-}
 else
 {	*h = NULL;
 	len++;
 	break;
 }
 }
-	*h = NULL
+}
+	*h = NULL;
 	return (len);
 }
