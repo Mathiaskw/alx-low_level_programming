@@ -22,7 +22,8 @@ if	(text_content == NULL)
 }
 	i = 0;
 while	(text_content[i])
-	i++;
+{	i++;
+}
 	fdw = write(fdo, text_content, i);
 if	(fdw == -1)
 {	return (-1);
