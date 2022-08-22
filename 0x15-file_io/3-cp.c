@@ -33,7 +33,7 @@ if	(fdw == -1 || fdw != fdr || fdto == -1)
 	fdr = read(fdfrom, buff, 1024);
 	fdto = open(argv[2], O_WRONLY | O_APPEND);
 }
-while	(fdr > 0)
+while	(fdr > 0);
 {	free(buff);
 	close_file(fdfrom);
 	close_file(fdto);
